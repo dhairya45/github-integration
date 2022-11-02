@@ -1,0 +1,38 @@
+git --version  ( to check version)
+git init  ( to initialize in that directory)
+ls ( to list files)
+git config --global --list ( to list user name and email )
+git config --global user.name "name" ( to edit new username)
+git config --global user.name "github acc email addr"
+touch file1.txt file2.txt file3.txt
+ls
+git status 
+git add file1.txt
+git  commit -m "first" file1.txt
+git branch -M main 
+git remote add origin repo link
+git remote show origin
+git push -f origin main
+Commit changes in repo
+Then 
+git fetch origin
+git pull repo name
+Cat changes made in file ka name
+branch create and checkout
+git branch shivam 
+git checkout shivam
+
+Merge
+In New branch 
+cat >> file2.txt
+Msg
+git status
+git add "file2.txt"
+git status
+git commit -m "file2" file2.txt
+git checkout main
+in main branch
+cat file2.txt
+git merge newbarnchname
+cat file2.txt
+
